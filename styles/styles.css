@@ -9,11 +9,10 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 5rem;
     text-align: center;
     margin: 20px 0;
     color: white;
@@ -29,13 +28,13 @@ h1 {
 
 .btn {
     background: rgb(30, 144, 255);
-    width: 60vw;
-    height: 20vh;
+    width: 250px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 3vw;
+    font-size: 1.5rem;
     margin: 15px 0;
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
     border-radius: 15px;
@@ -78,58 +77,55 @@ footer {
     color: white;
     font-size: 1rem;
 }
-
 table {
     border-collapse: collapse;
     table-layout: fixed;
     width: 150vh;
 }
-
 table, th, td {
     border: 1.5px solid white;
     text-align: center;
     font-weight: bold;
     color: white;
 }
-
 .tabulka {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: start;
 }
-
 .wrapper {
     margin-top: -80vh;
 }
-
 .wrapper2 {
     margin-top: -30vh;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
+}
 .obdelnik {
-    display: flex;
+    display:flex;
     flex-direction: column;
     color: white;
     background-color: rgb(30, 144, 255);
     border-radius: 25px;
     text-align: center;
-    width: 80vw;
-    max-width: 380px;
+    width: 38vh;
     height: auto;
-    margin: 10px;
+    margin: 0 auto;
     justify-content: center;
-    padding: 10px;
 }
-
 .wrapper3 {
     display: flex;
     flex-direction: row;
+    
+}
+.celek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.wrapper4 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
 }
