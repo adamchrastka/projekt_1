@@ -77,3 +77,22 @@ footer {
     color: white;
     font-size: 1rem;
 }
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 150vh;
+}
+table, th, td {
+    border: 1.5px solid white;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.tabulka {
+    display:flex;
+    justify-content: center;
+    align-items: start;
+}
+.wrapper {
+    margin-top: -80vh;
+}
