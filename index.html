@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Správa autoškoly</title>
 </head>
 <body>
@@ -11,28 +11,22 @@
         <div class="nadpis">
             <h1>Správa autoškoly</h1>  
         </div>   
-        <div class="wrapper4">
-            <a href="pages/seznam.html">
-                <div class="btn">
-                    <h2>Seznam žáků</h2>
-                </div>
-            </a>    
-            <a href="pages/terminyjizd.html">
-                <div class="btn">
-                    <h2>Termíny jízd</h2>
-                </div>
-            </a>
-            <a href="pages/terminyzkousek.html">
-                <div class="btn">
-                    <h2>Termíny zkoušek</h2>
-                </div>
-            </a>
-            <a href="pages/zkousky.html">
-                <div class="btn">
-                    <h2>Průběh zkoušek</h2>
-                </div>
-            </a>
+        <div class="tabulka">
+            <table id="tabulka">
+                    <thead>
+                    <tr>
+                    <th>Jmeno</th>
+                    <th>Datum narozeni</th>
+                    <th>Pocet jizd</th>
+                    <th>Datum zkousek</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
     </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
